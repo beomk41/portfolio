@@ -9,7 +9,7 @@ import 'swiper/css/scrollbar'
 import Script from 'next/script'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import * as gtag from './gtag'
+import * as gtag from '../lib/gtag'
 
 export const theme = {
   colors: {
