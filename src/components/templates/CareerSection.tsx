@@ -371,15 +371,17 @@ const CareerContent = ({ career }: CareerContentProps) => (
 
 type CareerSectionProps = {
   sectionMethods: SectionMethodsType
+  id: string
 }
 
 const CareerSection: ForwardRefRenderFunction<
   HTMLDivElement,
   CareerSectionProps
-> = ({ sectionMethods }, ref) => {
+> = ({ sectionMethods, id }, ref) => {
   return (
     <Section
       ref={ref}
+      id={id}
       css={{
         justifyContent: 'center',
         alignItems: 'flex-start',

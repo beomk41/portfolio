@@ -33,6 +33,27 @@ function MyApp({ Component, pageProps }: AppProps) {
     }
   }, [router.events])
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll('section')
+      sections.forEach(section => {
+        const rect = section.getBoundingClientRect()
+        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+          gtag.event({
+            action: 'scroll',
+            category: 'Section',
+            label: section.id,
+          })
+        }
+      })
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
   return (
     <ThemeProvider theme={theme}>
       <Script

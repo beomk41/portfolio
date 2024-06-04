@@ -1,5 +1,4 @@
 import type { NextPage } from 'next'
-
 import IntroSection, {
   INTRO_SECTION_PAGE_HEIGHT,
 } from '@components/templates/IntroSection'
@@ -179,11 +178,11 @@ const Home: NextPage = () => {
           </div>
         </motion.header>
       </div>
-      <IntroSection ref={IntroSectionRef} sectionMethods={sectionMethods} />
-      <AboutMeSection ref={AboutMeSectionRef} sectionMethods={sectionMethods} />
-      <MySkillSection ref={MySkillSectionRef} sectionMethods={sectionMethods} />
-      <ProjectSection ref={ProjectSectionRef} sectionMethods={sectionMethods} />
-      <CareerSection ref={CareerSectionRef} sectionMethods={sectionMethods} />
+      <IntroSection ref={IntroSectionRef} sectionMethods={sectionMethods} id="intro-section" />
+      <AboutMeSection ref={AboutMeSectionRef} sectionMethods={sectionMethods} id="about-me-section" />
+      <MySkillSection ref={MySkillSectionRef} sectionMethods={sectionMethods} id="my-skill-section" />
+      <CareerSection ref={CareerSectionRef} sectionMethods={sectionMethods} id="career-section" />
+      <ProjectSection ref={ProjectSectionRef} sectionMethods={sectionMethods} id="project-section" />
     </main>
   )
 }

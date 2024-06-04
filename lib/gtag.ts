@@ -17,7 +17,7 @@ interface EventParams {
   action: string;
   category: string;
   label: string;
-  value: string;
+  value?: string;
 }
 
 // Log specific events

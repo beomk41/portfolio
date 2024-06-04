@@ -20,17 +20,19 @@ const CERTIFICATE_INFO_FIELD = [
 
 type AboutMeSectionProps = {
   sectionMethods: SectionMethodsType
+  id: string
 }
 
 const AboutMeSection: ForwardRefRenderFunction<
   HTMLDivElement,
   AboutMeSectionProps
-> = ({ sectionMethods }, ref) => {
+> = ({ sectionMethods, id }, ref) => {
   const theme = useTheme()
 
   return (
     <Section
       ref={ref}
+      id={id}
       css={{
         justifyContent: 'center',
         alignItems: 'flex-start',

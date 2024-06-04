@@ -508,15 +508,17 @@ const CommunitySection = () => {
 
 type MySkillSectionProps = {
   sectionMethods: SectionMethodsType
+  id: string
 }
 
 const MySkillSection: ForwardRefRenderFunction<
   HTMLDivElement,
   MySkillSectionProps
-> = ({ sectionMethods }, ref) => {
+> = ({ sectionMethods, id }, ref) => {
   return (
     <Section
       ref={ref}
+      id={id}
       css={{
         justifyContent: 'center',
         alignItems: 'flex-start',

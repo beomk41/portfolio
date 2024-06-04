@@ -37,6 +37,7 @@ import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper'
 
 type ProjectSectionProps = {
   sectionMethods: SectionMethodsType
+  id: string
 }
 
 type SkillTagProps = {
@@ -259,7 +260,7 @@ const ProjectList = [
 const ProjectSection: ForwardRefRenderFunction<
   HTMLDivElement,
   ProjectSectionProps
-> = ({ sectionMethods }, ref) => {
+> = ({ sectionMethods, id }, ref) => {
   const theme = useTheme()
 
   SwiperCore.use([Navigation, Pagination, Autoplay]) // 추가
@@ -267,6 +268,7 @@ const ProjectSection: ForwardRefRenderFunction<
   return (
     <Section
       ref={ref}
+      id={id}
       css={{
         justifyContent: 'center',
         alignItems: 'flex-start',

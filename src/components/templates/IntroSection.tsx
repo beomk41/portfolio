@@ -312,16 +312,18 @@ const BioFixedMotion = ({ sectionMethods }: BioFixedMotionProps) => {
 
 type IntroSectionProps = {
   sectionMethods: SectionMethodsType
+  id: string
 }
 const IntroSection: ForwardRefRenderFunction<
   HTMLDivElement,
   IntroSectionProps
-> = ({ sectionMethods }, ref) => {
+> = ({ sectionMethods, id }, ref) => {
   const theme = useTheme()
 
   return (
     <Section
       ref={ref}
+      id={id}
       css={{
         backgroundColor: theme.colors.black,
         height: INTRO_SECTION_PAGE_HEIGHT,
