@@ -95,7 +95,7 @@ const CareerList: CareerItemType[] = [
           <strong key="1">프로젝트 설명</strong>,
           '이 프로젝트는 삼성 청년 SW 아카데미 2학기 자율 프로젝트로,',
           '프로젝트 진행 시 필요한 API명세 작성이라는 작업을 더 쉽게 할 수 있도록 지원하는 서비스 입니다.',
-          <div key="2"><strong>담당 역할:</strong> 백엔드 개발</div>,
+          <div key="2"><strong>담당 역할 : </strong>백엔드 개발</div>,
           <strong key="3">2024.07 리팩토링 진행 예정</strong>,
         ],
       },
@@ -106,9 +106,8 @@ const CareerList: CareerItemType[] = [
           <strong key="1">프로젝트 설명</strong>,
           '이 프로젝트는 삼성 청년 SW 아카데미 2학기 특화 프로젝트로, 핀테크를 주제로 진행되었습니다.',
           '기존 간편결제 시스템에서 발생하는 잔돈을 기부하여 사회공헌에 참여하는 것을 목표로 합니다.',
-          <div key="2"><strong>담당 역할:</strong> 백엔드 개발</div>,
-          <strong key="3">성과:</strong>,
-          '핀테크 - 프로젝트 우수상 수상(1등)',
+          <div key="2"><strong>담당 역할 : </strong>백엔드 개발</div>,
+          <div key="3"><strong>성과 : </strong>핀테크 - 프로젝트 우수상 수상(1등)</div>,
           <strong key="4">2024.06 리팩토링 진행 예정</strong>,
         ],
       },
@@ -119,9 +118,8 @@ const CareerList: CareerItemType[] = [
           <strong key="1">프로젝트 설명</strong>,
           '이 프로젝트는 삼성 청년 SW 아카데미 2학기 특화 프로젝트로, 웹기술(WebRTC)을 주제로 진행되었습니다.',
           '아이디어 기획에 어려움을 겪는 이들을 위한 온라인 협업 플랫폼입니다.',
-          <div key="2"><strong>담당 역할:</strong> 백엔드 개발</div>,
-          <strong key="3">성과:</strong>,
-          '핀테크 - 프로젝트 우수상 수상(3등)',
+          <div key="2"><strong>담당 역할 : </strong>백엔드 개발</div>,
+          <div key="3"><strong>성과 : </strong>웹기술 - 프로젝트 우수상 수상(3등)</div>,
         ],
       },
     ],
@@ -182,7 +180,7 @@ const CareerList: CareerItemType[] = [
       ),
       subbio: (
         <>
-          학부연구생으로 참여하여 백엔드 포지션으로 개발 업무 수행
+          학부연구생으로 참여하여 연구과제의 백엔드 개발 업무 수행
         </>
       ),
     },
@@ -195,22 +193,11 @@ const CareerList: CareerItemType[] = [
           '조선대학교 산학협력단 Smart Networking Lab에서 학부연구생으로 참여한 프로젝트로',
           '신체의 변화(온도, 압력)를 감지하는 바이오 패치와 NFC 리더간 양방향 통신을 이용하여',
           '현장 의료진에게 환자의 상태를 제공하는 애플리케이션 데모 개발',
-          <div key="2"><strong>담당 역할:</strong></div>,
+          <div key="2"><strong>담당 역할 : </strong>백엔드 개발</div>,
           '- 실시간 데이터 수집: 패치 센서와 모바일 디바이스를 활용하여 환자의 생체 정보를 실시간 수집',
           '- 데이터 처리 및 시각화: 수집된 정보를 분석하여 의료진을 시각화된 자료 생성',
-          <strong key="3">성과:</strong>,
-          '2023 한국전자파학회 동계 학술대회 포스터 발표 진행',
-        ],
-      },
-      {
-        title: 'XR 기반 임상 실습 교육을 위한 실시간 다중 훈련 플랫폼 개발',
-        period: ['2022.12', '2023.02'],
-        description: [
-          <strong key="1">프로젝트 설명</strong>,
-          '의학 실습 교육을 위한 3D 시뮬레이션 및 3D 실시간 상호작용 기술 개발',
-          <div key="2"><strong>담당 역할:</strong></div>,
-          '- 다중사용자 접속 및 동시 훈련을 고려한 XR 기반의 네트워크 기술 개발',
-          '- 접속인원 증가에 따른 최대 서버 지연 및 처리율 등의 성능 평가 수행',
+          <div key="3"><strong>성과 : </strong>2023 한국전자파학회 동계 학술대회 포스터 발표</div>,
+          <div key="4"><a href='https://drive.google.com/file/d/1vC2tyVyHYmOt65ihwVZUI2tf21vtzerH/view?usp=sharing'>발표 논문 첨부</a></div>
         ],
       },
     ],
