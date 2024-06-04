@@ -181,8 +181,8 @@ const Home: NextPage = () => {
       <IntroSection ref={IntroSectionRef} sectionMethods={sectionMethods} id="intro-section" />
       <AboutMeSection ref={AboutMeSectionRef} sectionMethods={sectionMethods} id="about-me-section" />
       <MySkillSection ref={MySkillSectionRef} sectionMethods={sectionMethods} id="my-skill-section" />
-      <CareerSection ref={CareerSectionRef} sectionMethods={sectionMethods} id="career-section" />
       <ProjectSection ref={ProjectSectionRef} sectionMethods={sectionMethods} id="project-section" />
+      <CareerSection ref={CareerSectionRef} sectionMethods={sectionMethods} id="career-section" />
     </main>
   )
 }
