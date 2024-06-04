@@ -100,7 +100,6 @@ const ProjectList = [
           <div key="2" style={{color: '#000', fontFamily: 'AppleSDGothic'}}>MMS를 활용한 본인인증 회원가입<br /></div>,
           <div key="3" style={{color: '#000', fontFamily: 'AppleSDGothic'}}>2차 비밀번호(2FA)를 활용한 보안강화<br /></div>,
           <div key="4" style={{color: '#000', fontFamily: 'AppleSDGothic'}}>MSA 구조와 BFF패턴을 활용한 기능 간 서버 분리<br /></div>,
-          <div key="5" style={{color: '#000', fontFamily: 'AppleSDGothic'}}>FeginClient를 활용한 서버 간 통신<br /></div>,
         ]
       },
       { title: '프로젝트 성과', description: <Text>프로젝트 우수상 (1등)</Text> },
@@ -201,7 +200,7 @@ const ProjectList = [
     description: (
       <>
         <div style={{color: '#000', fontFamily: 'AppleSDGothic'}}>
-          Getidea는 삼성 청년 SW 아카데미의 공통 프로젝트 중 <strong>웹기술(WebRTC)</strong>을 주제로 수행한 프로젝트로{' '}
+          Getidea는 삼성 청년 SW 아카데미의 공통 프로젝트 중 웹기술(WebRTC)을 주제로 수행한 프로젝트로{' '}
           아이디어 기획에 어려움을 겪는 이들을 위한 온라인 협업 플랫폼입니다.
           팀원들과 실시간으로 아이디어 보드를 공동으로 구성하고 아이디어를 함께 도출할 수 있도록 설계되었으며
           다양한 아이디어 템플릿을 제공하여 창의적 사고를 자극하고, <strong>화상채팅 및 화면 공유 기능을 통해 원격 협업의 효율성</strong>을 극대화합니다.
